@@ -1,2 +1,50 @@
 encoding: utf-8
 baseurl: /bq
+
+paginate: 10                                #分页时每页博文数量
+
+title: bq's Blog                            #自定义常量
+author: bq                                    #自定义常亮
+email: barret.qin@gmail.com
+url: https://qw20012.github.io/bq/
+rss_url: /pages/feed.xml                     #订阅地址
+
+# Build settings
+permalink: /:year/:month/:day/:title.html  #博文的固定链接
+markdown: kramdown                         #markdown解释器
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+  
+# Social account
+#twitter: suyan404
+#weibo: suyan0830
+#github: suyan
+#instagram: suyan404
+#linkedin: suyan404  
+
+# avatar and Favicon
+avatar: http://7u2ho6.com1.z0.glb.clouddn.com/site-avatar.png
+favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+
+# disqus config
+#disqus:
+#  shortname: suyan-zh
+  
+# google analytics config
+#ga:
+#  id: UA-54767140-1
+#  url: yansu.org
+ 
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/ 
+gems:
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-feed
