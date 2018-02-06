@@ -20,6 +20,8 @@ sass:
 # Sidebar filter
 # Choose 'tag' or 'category' as filter in sidebar.
 filter: 'category'
+categories: [life, tech, tool, resource, book, business]
+
 recent_num: 20
   
 # Social account
