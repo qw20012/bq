@@ -20,16 +20,16 @@ sass:
 # Sidebar filter
 # Choose 'tag' or 'category' as filter in sidebar.
 filter: 'category'
-categories: [life, tech, tool, resource, book, business, Buddhism]
+categories: [life, tech: [database], tool, resource, book, business, Buddhism]
 
 recent_num: 20
   
 # Social account
-#twitter: suyan404
-#weibo: suyan0830
-#github: suyan
-#instagram: suyan404
-#linkedin: suyan404  
+#twitter: unknown
+#weibo: unknown
+#github: qw20012
+#instagram: unknown
+#linkedin: unknown  
 
 # avatar and Favicon
 avatar: http://7u2ho6.com1.z0.glb.clouddn.com/site-avatar.png
@@ -42,7 +42,7 @@ favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
 # google analytics config
 #ga:
 #  id: UA-54767140-1
-#  url: yansu.org
+#  url: qw20012.org
  
 # Jekyll Plugin
 # https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/ 
