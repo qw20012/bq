@@ -1398,6 +1398,10 @@ om balavajra svaha
 观音菩萨甘露咒（下雨时）： om dhune dhune kadhune svaha
 
 
+
+
+回向偈
+
 愿以此功德。庄严佛净土。
 上报四重恩。下济三途苦。
 若有见闻者。悉发菩提心。
