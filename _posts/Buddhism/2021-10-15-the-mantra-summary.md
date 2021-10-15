@@ -2,8 +2,8 @@
 layout: post
 title: 咒语小结
 category: Buddhism
-tags: Essay
-keywords: mantra,咒语
+tags: Buddhism, Mantra
+keywords: mantra, 咒语
 description: 一些常见佛道咒语。
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 一刹那成佛捷径 • 诸佛名号拔除堕罪
 category: Buddhism
-tags: Essay
+tags: Buddha
 keywords: 诸佛,佛名
 description: 诸佛名号。
 ---
