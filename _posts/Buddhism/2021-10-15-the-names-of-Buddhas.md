@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 咒语小结
+title: 一刹那成佛捷径 • 诸佛名号拔除堕罪
 category: Buddhism
 tags: Essay
-keywords: mantra,咒语
-description: 一些常见佛道咒语。
+keywords: 诸佛,佛名
+description: 诸佛名号。
 ---
 
 
