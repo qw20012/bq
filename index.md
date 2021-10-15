@@ -5,7 +5,7 @@ layout: post
 
 ## Me
 
-As a lazy programmer, programming is just a thing that earning a living, since no other expertise and hobbies cannot make a living. This blog is just my litter bin.
+As a lazy programmer, programming is just a thing that earning a living, since no other expertise or hobbies can make a living. This blog is just my litter bin.
 
 ## Other
 
@@ -17,7 +17,7 @@ Platform:
 
 Program lauguage: 
 
-    Java and C#
+    Java, C# and Rust.
 
 Database: 
 
