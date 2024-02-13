@@ -160,11 +160,7 @@ Compile LLVM IR and link to create the executealbe
 
 	clang ir.ll -o ir.exe -lLLVM-C -target x86_64-pc-windows-gnu  -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"
 
-	
-	clang ir.ll -o ir.exe -lLLVM-C -target x86_64-pc-windows-gnu  -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"
-	
-- Or just use 1 commands
+- Or just use 1 command
 
-	```bash
     gcc p1.c -o p1 -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"  -lLLVM-C
-	```
+	
