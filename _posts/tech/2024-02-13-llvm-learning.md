@@ -158,13 +158,13 @@ Compile the C source code to LLVM IR using Clang
 	
 Compile LLVM IR and link to create the executealbe
 
-	```bash
 	clang ir.ll -o ir.exe -lLLVM-C -target x86_64-pc-windows-gnu  -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"
-	```
+
 	
 	clang ir.ll -o ir.exe -lLLVM-C -target x86_64-pc-windows-gnu  -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"
 	
 - Or just use 1 commands
 
+	```bash
     gcc p1.c -o p1 -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"  -lLLVM-C
-
+	```
