@@ -40,6 +40,10 @@ git archive # Create a compressed package to release
 
 ssh-keygen -t rsa -C "address@qq.com" # Create key file
 
+git worktree add -b new-branch [path] # Create a new worktree and checkout a new branch
+git worktree list # List all worktree
+
+git filter-branch --tree-filter 'rm -f passwords.txt' HEAD # Remove sensitive information
 ```
 
 ### Ignore
@@ -163,7 +167,8 @@ git stash pop stash@{2}
 git stash apply | git stash apply stash@{2} # Apply the changes to working copy and keep them in stash
 git stash list # Display the temporary stack
 git stash drop | git stash drop stash@{0} # Drop the most recently stashed changes
-git stash show # View  a summary of a stash
+git stash show <stash id> # View  a summary of a stash
+git stash clear # Clear all stashed changes
 ```
 
 ## Branch
