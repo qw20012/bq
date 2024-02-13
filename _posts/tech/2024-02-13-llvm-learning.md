@@ -136,27 +136,27 @@ and I think you can catch it completely.
 
 ### Compile and Run
 
-Use 3 steps
+- Use 3 steps
 
-- Compile the C source code to LLVM IR using Clang
+Compile the C source code to LLVM IR using Clang
 	
 	clang -S -emit-llvm ir.c -o ir.ll -target x86_64-pc-windows-gnu -v -I "C:\tools\llvm\include"
 	
-- Compile LLVM IR to object file using LLVM toolchain
+Compile LLVM IR to object file using LLVM toolchain
 	
 	llvm-llc ir.ll -filetype=obj -o ir.o
 	
-- Link object file with MinGW and create the executable
+Link object file with MinGW and create the executable
 	
     gcc ir.o -o ir.exe -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"  -lLLVM-C
 	
-Or just use 2 commands
+- Or just use 2 commands
 
-- Compile the C source code to LLVM IR using Clang
+Compile the C source code to LLVM IR using Clang
 	
 	clang -S -emit-llvm ir.c -o ir.ll -target x86_64-pc-windows-gnu -v -I "C:\tools\llvm\include"
 	
-- Compile LLVM IR and link to create the executealbe
+Compile LLVM IR and link to create the executealbe
 
 	```bash
 	clang ir.ll -o ir.exe -lLLVM-C -target x86_64-pc-windows-gnu  -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"
@@ -164,7 +164,7 @@ Or just use 2 commands
 	
 	clang ir.ll -o ir.exe -lLLVM-C -target x86_64-pc-windows-gnu  -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"
 	
-Or just use 1 commands
+- Or just use 1 commands
 
     gcc p1.c -o p1 -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"  -lLLVM-C
 
