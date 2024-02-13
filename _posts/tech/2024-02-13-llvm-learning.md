@@ -162,5 +162,5 @@ Compile LLVM IR and link to create the executealbe
 
 - Or just use 1 command
 
-    gcc p1.c -o p1 -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"  -lLLVM-C
+	gcc p1.c -o p1 -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"  -lLLVM-C
 	
