@@ -160,11 +160,13 @@ Compile the C source code to LLVM IR using Clang
 	
 	clang -S -emit-llvm ir.c -o ir.ll -target x86_64-pc-windows-gnu -v -I "C:\tools\llvm\include"
 	
-Compile LLVM IR and link to create the executealbe
+Compile LLVM IR and link to create the executable
 
 	clang ir.ll -o ir.exe -lLLVM-C -target x86_64-pc-windows-gnu  -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"
 
 - Or just use 1 command with MinGW
+
+Compile and link to create the executable
 
 	gcc p1.c -o p1 -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"  -lLLVM-C
 	
