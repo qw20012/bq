@@ -146,11 +146,15 @@ Compile LLVM IR to object file using LLVM toolchain
 	
 	llvm-llc ir.ll -filetype=obj -o ir.o
 	
-Link object file with MinGW and create the executable
+Link object file with Clang and create the executable
 	
     gcc ir.o -o ir.exe -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"  -lLLVM-C
 	
-- Or just use 2 commands
+Or link object file with MinGW and create the executable
+
+	clang ir.o -o ir.exe -target x86_64-pc-windows-gnu  -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"  -lLLVM-C
+	
+- just use 2 commands with Clang
 
 Compile the C source code to LLVM IR using Clang
 	
@@ -160,7 +164,7 @@ Compile LLVM IR and link to create the executealbe
 
 	clang ir.ll -o ir.exe -lLLVM-C -target x86_64-pc-windows-gnu  -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"
 
-- Or just use 1 command
+- Or just use 1 command with MinGW
 
 	gcc p1.c -o p1 -I "C:\tools\llvm\include"  -L "C:\tools\LLVM\lib"  -lLLVM-C
 	
